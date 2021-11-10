@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Rom-Art</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+      <section id="home" class="bg">
+         <nav id="myNav">
+            <div class="logo">
+               <a href="index.html"><img class="logo" src="images/logo.png" alt="Rom-Art"></a>
+            </div>
+            <input type="checkbox" name="" id="res-menu">
+            <label for="res-menu">
+                <i class="fa fa-bars" id="sign-one"></i>
+                <i class="fa fa-times" id="sign-two"></i>
+            </label>
+            <ul>
+               <li>
+                  <a href="#home">Acasă</a>
+                  <a href="#about">Despre noi</a>
+                  <a href="#products">Produse</a>
+                  <a href="#contact">Contact</a>
+               </li>
+            </ul>
+         </nav>
+         <h2 class="title-1"><a class="yellow"> Pasiunea </a> noastră, <a class="yellow"> bucuria </a>voastră</h2>
+         <img class="wave1" src="images/wave2.png" alt="Rom-Art">
+      </section>
+      <section id="about" class="about">
+         <img class="XI" src="images/XI.jpeg" alt="Rom-Art">
+         <p class="about-text">F.E ROM-ART SRL a fost înființată în data de 13.10.2021 și are ca obiect de activitate fabricarea imitațiilor de bijuterii, articole similare, precum și activități de creație artistică. Firma a fost înființată de către colectivul clasei a XI-a A cu specializarea "Tehnician în activități economice".</p>
+         <h2 class="about-title">Despre noi</h2>
+      </section>
+      <section class="products" id="products">
+         <h2 class="products">Produsele noastre</h2>
+         <div class="grid">
+            <img class="products" src="images/1.jpeg" alt="Rom-Art">
+            <img class="products" src="images/2.jpeg" alt="Rom-Art">
+            <img class="products" src="images/3.jpeg" alt="Rom-Art">
+            <img class="products" src="images/4.jpeg" alt="Rom-Art">
+            <img class="products" src="images/5.jpeg" alt="Rom-Art">
+            <img class="products" src="images/6.jpeg" alt="Rom-Art">
+         </div>
+      </section>
+      <div class="waves">
+         <img class="waves" src="images/waves1.png" alt="Rom-Art">
+      </div>
+      <footer id="contact">
+         <h2 class="contact">Contact</h2>
+         <div class="info">
+            <i class="fa fa-map-marker">&emsp;Strada Călimanului nr.1, Târgu Mureş, județul Mureș </i>
+            <i class="fa fa-phone">&emsp;0745 751 844 </i>
+            <i class="fa fa-envelope">&emsp;contaromart@gmail.com </i>
+         </div>
+      </footer>
+   </body>
+</html>
+
+<script>
+function myFunction() {
+   var x = document.getElementById("nav");
+   if (x.className === "nav") {
+    x.className += " responsive";
+   } else {
+    x.className = "nav";
+   }
+   }
+</script>
