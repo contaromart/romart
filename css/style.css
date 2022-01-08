@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 html,
 body {
 	margin: 0;
@@ -104,13 +105,12 @@ section.products {
 
 div.grid {
 	text-align: center;
-	margin-right: 250px;
-	margin-left: 250px;
+	margin-right: 150px;
+	margin-left: 150px;
 }
 
 img.products {
-	width: 250px;
-	padding: 10px;
+	width: 200px;
 }
 
 div.waves {
@@ -141,13 +141,84 @@ div.info {
 }
 
 
-@media only screen and (max-width: 480px) {
+div.box {
+    display: inline-flex;
+    padding: 20px 20px 170px 20px;
+    background-color: #fffaca;
+    margin: 15px;
+}
+
+h2.product-title {
+    position: absolute;
+    font-size: 16px;
+    margin-top: 285px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2.product-price {
+    position: absolute;
+    font-size: 15px;
+    margin-top: 310px;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 10px;
+    border: 3px solid #228B22;
+    padding: 10px;
+    font-size: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: #fffaca;
+    border-radius: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.checked {
+    color: orange;
+  }
+
+.stars {
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 50px;
+}
+@media only screen and (max-width: 600px) {
 
     div.grid, div.info {
         margin-left: auto;
         margin-right: auto;
         display: block;
     }
+
+    h2.product-title {
+        margin-top: 190px;
+    }
+
+    h2.product-price {
+        margin-top: 220px;
+    }
+
+    .stars {
+    margin-top: 260px;
+    margin-left: 20px;
+    }
+
+    button {
+        margin-top: 290px;
+        margin-left: -5px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     img.XI {
         width: 250px;
         margin-left: auto;
